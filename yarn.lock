@@ -4669,6 +4669,14 @@ gatsby-link@^2.1.1:
     "@types/reach__router" "^1.0.0"
     prop-types "^15.6.1"
 
+gatsby-plugin-compile-es6-packages@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-compile-es6-packages/-/gatsby-plugin-compile-es6-packages-1.1.0.tgz#5045c3bbf408c6d639b317ebffd8e9128073c4f9"
+  integrity sha512-YjB9LDyUBcWfVVF8mN+t4OziYghys08nb2vpYgW+sqXO4giHRLWpANFmVUXW+H2c1g8fAwPlKYcwDXyqNunibw==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    regex-escape "^3.4.8"
+
 gatsby-plugin-manifest@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.1.1.tgz#e987d6e655b1dcfba6e10d65ff20722aaeb75391"
@@ -8921,10 +8929,10 @@ react-lifecycles-compat@^3.0.4:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
-react-netlify-identity-widget@^0.0.26:
-  version "0.0.26"
-  resolved "https://registry.yarnpkg.com/react-netlify-identity-widget/-/react-netlify-identity-widget-0.0.26.tgz#fe2df9bc2a3cfc9a5e871a8f77a60d6f685a765c"
-  integrity sha512-67tYcJ4LQEZfIut5t6Qaw516gPDv0/isd12lnKOduemXRCKH2EqGRQSNgsF3LVyJ48hSlz3Wi+w2pTSS8bzZ3A==
+react-netlify-identity-widget@0.0.28:
+  version "0.0.28"
+  resolved "https://registry.yarnpkg.com/react-netlify-identity-widget/-/react-netlify-identity-widget-0.0.28.tgz#24a7323dc06db10d3e104d883dd116d83a85122f"
+  integrity sha512-WNFFkWChsF31T7JcAZRPAiz3m00neMbfmffT4hcHvtAmhdJzMRAU7Ur55B9PsRpbTSy+rnVt1Y7ysGV0sP2wjg==
   dependencies:
     react-netlify-identity "^0.0.16"
 
@@ -9143,6 +9151,11 @@ regenerator-transform@^0.13.4:
   integrity sha512-T0QMBjK3J0MtxjPmdIMXm72Wvj2Abb0Bd4HADdfijwMdoIsyQZ6fWC7kDFhk2YinBBEMZDL7Y7wh0J1sGx3S4A==
   dependencies:
     private "^0.1.6"
+
+regex-escape@^3.4.8:
+  version "3.4.9"
+  resolved "https://registry.yarnpkg.com/regex-escape/-/regex-escape-3.4.9.tgz#407b413562e2373d56994ff213e693658ea4f8f7"
+  integrity sha512-Cv9rjwyQwVhn3L097ysanWsEElurmxDj6Cc4Ut23z7e6hzRbrNvF3Le7yAciMfuzyb0sZwSr0ZHunMNCIoy2/g==
 
 regex-not@^1.0.0, regex-not@^1.0.2:
   version "1.0.2"
