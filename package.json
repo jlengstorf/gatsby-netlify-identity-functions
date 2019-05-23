@@ -31,6 +31,7 @@
   ],
   "license": "MIT",
   "scripts": {
+    "postinstall": "cd functions/high-fives/ && yarn install",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
