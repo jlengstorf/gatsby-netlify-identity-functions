@@ -1,6 +1,6 @@
 # example netlify.toml
 [build]
-  command = "yarn build"
+  command = "cd functions/high-fives/ && yarn install && cd .. && cd .. && yarn build"
   functions = "functions"
   publish = "public"
 
