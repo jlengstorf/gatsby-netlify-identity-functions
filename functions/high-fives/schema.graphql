@@ -1,0 +1,12 @@
+type Todo {
+  title: String!
+  completed: Boolean!
+}
+type HighFive {
+  count: Int!
+}
+type Query {
+  allTodos: [Todo!]
+  todosByCompletedFlag(completed: Boolean!): [Todo!]
+  allHighFives: [HighFive!]
+}
